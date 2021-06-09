@@ -1,0 +1,10 @@
+package com.training.javaa;
+
+public class VowelFinding {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

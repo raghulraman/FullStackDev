@@ -1,0 +1,23 @@
+package com.training.javaa;
+
+import java.util.Scanner;
+
+public class VowelFinding {
+
+	public static void main(String[] args) {
+		Scanner input1 = new Scanner(System.in);
+		System.out.println("Enter the word : ");
+		String str1=input1.nextLine();
+		VowelFinding vowel = new VowelFinding();
+		vowel.vowelFind(str1);
+	}
+
+	void vowelFind(String str) {
+		str=str.toLowerCase();
+		char[] ch=new char[str.length()];
+		for(int i=0;i<str.length();i++) {
+			ch[i]=str.charAt(i);
+		}
+	}
+
+}
